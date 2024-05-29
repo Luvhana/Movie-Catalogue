@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    text-align:center;
+    font-size: 120px;
+    font-family: "Roboto Slab", serif;
+}
+
+.container {
+    /* border: solid black 0.1rem; */
+    margin: 10px;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: calc(100vh - 3rem);
+    width: calc(100vw - 2rem);
+    text-align: center;
+    padding-bottom: 50px;
+
+    /* padding-bottom: 20px;
+    padding-top: 50px; */
+}
+
+.one,
+.two,
+.three,
+.four,
+.five,
+.six,
+.seven,
+.eight,
+.nine,
+.ten{
+    grid-column: 1 ; 
+    grid-row: 1;
+    border: solid black 0.1rem;
+    border-radius: 25px;
+    overflow: hidden;
+    background-image: url("./assets/Battlebeyondthestars.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 400px;
+}
+
+.two {
+    grid-column: 2;
+    grid-row: 1;
+    background-image: url("./assets/Carving_a_Life_Poster.jpg");
+}
+
+.three {
+    grid-column: 3;
+    grid-row: 1;
+    background-image: url("./assets/Yeh_jawani_hai_deewani.jpg");
+}
+
+.four {
+    grid-column: 4;
+    grid-row: 1;
+    background-image: url("./assets/Zindaginamilegidobara.jpg");
+}
+
+.five {
+    grid-column: 5;
+    grid-row: 1;
+    background-image: url("./assets/Battlebeyondthestars.jpg");
+}
+
+.six{
+    grid-column:1 ;
+    grid-row: 2;
+    background-image: url("./assets/Carving_a_Life_Poster.jpg");
+}
+
+.seven{
+    grid-column: 2;
+    grid-row: 2;
+    background-image: url("./assets/Yeh_jawani_hai_deewani.jpg");
+}
+
+.eight{
+    grid-column: 3;
+    grid-row: 2;
+    background-image: url("./assets/Zindaginamilegidobara.jpg");
+}
+
+.nine{
+    grid-column: 4;
+    grid-row: 2;
+    background-image: url("./assets/Battlebeyondthestars.jpg");
+}
+
+.ten{
+    grid-column: 5;
+    grid-row: 2;
+    background-image: url("./assets/Carving_a_Life_Poster.jpg");
+}
+
+.one-button{
+    color: white;
+    background: black;
+    margin-bottom: 0.6rem;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 25px;
+    box-shadow: none;
+    outline: none;
+    outline-offset: none;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap')
